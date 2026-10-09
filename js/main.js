@@ -187,8 +187,6 @@ document.addEventListener("DOMContentLoaded", () => {
       768: { slidesPerView: 4.5, spaceBetween: 24, slidesOffsetAfter: 0 },
     },
   });
-
-
 });
 
 function changeActive(button) {
@@ -201,7 +199,5 @@ function changeActive(button) {
     }
   });
 
-  currentItem.classList.toggle("active"); 
+  currentItem.classList.toggle("active");
 }
-
-
