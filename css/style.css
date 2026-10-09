@@ -477,8 +477,6 @@ select:focus-visible {
 .hero_image video {
   display: block;
   object-fit: cover;
-
-
 }
 
 .hero_video {
@@ -942,6 +940,14 @@ select:focus-visible {
   color: var(--color-gray);
 }
 
+.product_discount {
+  color: var(--color-sale);
+  font-family: var(--font-rubik);
+  font-size: var(--font-size-12);
+  line-height: var(--line-height-140);
+  white-space: nowrap;
+}
+
 /* Add to cart button */
 .add_cart_but {
   position: absolute;
@@ -1212,7 +1218,6 @@ select:focus-visible {
 .faq_item.active .faq_icon {
   transform: rotate(45deg);
 }
-
 
 /* =========================
    FOOTER
