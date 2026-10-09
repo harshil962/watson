@@ -206,3 +206,13 @@ function changeActive(button) {
 
   currentItem.classList.toggle("active");
 }
+
+
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    const video = document.querySelector(".hero_image video[data-src]");
+    if (!video) return;
+    video.src = video.dataset.src;
+    video.play().catch(() => {});
+  }, 500);
+});
