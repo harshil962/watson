@@ -479,6 +479,10 @@ select:focus-visible {
   object-fit: cover;
 }
 
+.hero_image video {
+  background: #000 url("../images/hero_image.png") center / cover no-repeat;
+}
+
 .hero_video {
   background: #000;
 }
@@ -1634,17 +1638,15 @@ select:focus-visible {
     padding-bottom: 0;
   }
   .hero_content {
-    aspect-ratio: auto;
+    aspect-ratio: 375 / 388;
     height: auto;
   }
   .hero_image {
     height: auto;
   }
-  /* .hero_image img {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 375 / 388;
-  } */
+  .hero_image video {
+    background-image: url("../images/hero_image_respon.png");
+  }
 
   .product_crousel_section {
     margin: var(--space-24) 0;
